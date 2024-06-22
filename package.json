@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-email-collect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin for collecting emails, sending emails, and creating email templates",
   "strapi": {
     "displayName": "Email Designer",

@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/Liar0320/strapi-plugin-email-collect/compare/v1.0.1...v1.0.2) (2024-06-22)
+
+
+### 🐛 Chore 🐛
+
+* add error infomation collect ([bfd4cdb](https://github.com/Liar0320/strapi-plugin-email-collect/commit/bfd4cdbd729961166af0ac90e01e1a01dd84fa39))
+* update packge info ([ae9c33c](https://github.com/Liar0320/strapi-plugin-email-collect/commit/ae9c33ccb0273b7254f0a2bd75e1c025c0ba1e51))
+
 ## [1.0.1](https://github.com/Liar0320/strapi-plugin-email-collect/compare/v1.0.0...v1.0.1) (2024-06-22)
 
 
