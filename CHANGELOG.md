@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Liar0320/strapi-plugin-email-collect/compare/v1.0.0...v1.0.1) (2024-06-22)
+
+
+### 🐛 Chore 🐛
+
+* 调整remark字段类型 ([7aca8f9](https://github.com/Liar0320/strapi-plugin-email-collect/commit/7aca8f9775bafbbcfe814f75e129b0872f49ad24))
+
 ## 1.0.0 (2024-06-21)
 
 
