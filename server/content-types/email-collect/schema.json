@@ -29,7 +29,7 @@
       "type": "integer"
     },
     "remark": {
-      "type": "string"
+      "type": "text"
     },
     "locale": {
       "type": "string"
