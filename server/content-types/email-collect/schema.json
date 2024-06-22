@@ -21,12 +21,13 @@
       "enum": [
         "sending",
         "success",
-        "failed"
+        "failed",
+        "notsend"
       ],
       "default": "sending"
     },
     "templateReferenceId": {
-      "type": "integer"
+      "type": "string"
     },
     "remark": {
       "type": "text"

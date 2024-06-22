@@ -35,7 +35,11 @@ export default factories.createCoreController('plugin::email-collect.email-colle
 
             let instanceService = strapi.service("plugin::email-collect.email-collect");
 
-            if (email.templateReferenceId !== -1) {
+            let updateData: { status: "success" | "failed" | "notsend" , remark?: string } = {
+                status: "success"
+            };
+
+            if (isNumher(email.templateReferenceId)) {
                 try {
                     await instanceService.sendWithPlugin(email);
                 } catch (e) {
@@ -45,12 +49,19 @@ export default factories.createCoreController('plugin::email-collect.email-colle
                         errMsg = `Couldn't send test email: ${e.message}.`;
                     }
                 }
+            }else{
+                updateData.status = 'notsend';
+            }
+
+          
+
+            if (errMsg) {
+                updateData.status = 'failed';
+                updateData.remark = data.attributes.remark ? `${data.attributes.remark}\nError Information: ${errMsg}` : errMsg;
             }
 
             let result = await instanceService.update(data.id, {
-                data: {
-                    status: errMsg ? "failed" : "success",
-                },
+                data: updateData,
             });
 
             if (errMsg) {
@@ -61,3 +72,8 @@ export default factories.createCoreController('plugin::email-collect.email-colle
         },
     }
 });
+
+
+function isNumher(id: string | number) {
+    return !isNaN(Number(id));
+}
