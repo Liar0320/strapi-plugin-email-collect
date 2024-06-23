@@ -98,10 +98,11 @@
    ![Email Template](docs/create-tpl.png)
 
 2. Send an email
-   Set the `templateReferenceId` to the corresponding template id
+   Set the `templateReferenceId` to the corresponding template id, it must be a number
+   `
    ![Send Email](docs/send-email.png)
 
 ### Only collect emails without sending them
 
-1. Set the `templateReferenceId` to -1
+1. Set the `templateReferenceId` to String Type
    ![Collect Email](docs/collect-email.png)
