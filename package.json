@@ -3,8 +3,8 @@
   "version": "1.0.5",
   "description": "A plugin for collecting emails, sending emails, and creating email templates",
   "strapi": {
-    "displayName": "Email Designer",
-    "name": "email-designer",
+    "displayName": "Email Collect",
+    "name": "email-collect",
     "icon": "envelope",
     "description": "Email collection and sending",
     "kind": "plugin"
