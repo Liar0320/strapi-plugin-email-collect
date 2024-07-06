@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/Liar0320/strapi-plugin-email-collect/compare/v1.0.6...v1.0.7) (2024-07-06)
+
+
+### 🐛 Chore 🐛
+
+* change Email Collect Dashboard Style ([b59ab71](https://github.com/Liar0320/strapi-plugin-email-collect/commit/b59ab713707a046f29ce33cd013a3b52542c6c64))
+* change initLabel display ([68883c7](https://github.com/Liar0320/strapi-plugin-email-collect/commit/68883c750326842caa3c9cf495fb8028e2dcff3e))
+
 ## [1.0.6](https://github.com/Liar0320/strapi-plugin-email-collect/compare/v1.0.5...v1.0.6) (2024-06-24)
 
 
